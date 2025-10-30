@@ -31,7 +31,7 @@ func main() {
 	}
 
 	// Register Handlers
-	handlers.RegisterHandlers(bot, db)
+	handlers.RegisterAuthHandlers(bot, db)
 
 	fmt.Println("Bot is running...")
 	bot.Start()
