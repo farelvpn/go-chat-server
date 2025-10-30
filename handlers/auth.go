@@ -2,13 +2,13 @@ package handlers
 
 import (
 	"database/sql"
-	"fmt"
+//	"fmt"
 	"go-chat-server/models"
 	"go-chat-server/utils"
 	"log"
 	"math/rand"
 	"strconv"
-	"time"
+//	"time"
 
 	"gopkg.in/telebot.v3"
 )
